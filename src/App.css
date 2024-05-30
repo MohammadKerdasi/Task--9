@@ -1,0 +1,69 @@
+.welcome
+{
+    font-family: fantasy;
+    font-weight: 200;
+    max-width: 100% ;
+    color: black;
+    background-color: white;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    display: grid;
+    place-items: center;
+    animation: hide ;
+    animation-duration: 4s;
+}
+.welcome h3
+{
+    text-align: center;
+    padding: 20px;
+}
+.popUp
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    max-width: 100% ;
+    margin-left: auto !important;
+    color: black;
+    background-color: white;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    display: grid;
+    place-items: center;
+    animation-name: pop-up ;
+    animation-duration: 4s;
+}
+.popUp h3
+{
+    padding: 20px;
+}
+
+@keyframes hide{
+    0%
+    {
+        opacity: 0;
+    }
+    25%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+@keyframes pop-up{
+   
+    0%
+    {
+        width: 50%;
+    }
+    100%
+    {
+        width: 100%;
+    }
+
+} 
